@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+
+<body class="bg-amber-100">
+    <nav class="bg-white w-screen h-20 shadow-2xl">
+        <div class="flex justify-between p-4">
+            <div class="text-blue-700">HOME</div>
+            <ul class="hidden md:flex gap-10">
+                <li>Service</li>
+                <li>Contact</li>
+                <li>FAQ</li>
+                <li>ABOUT US</li>
+            </ul>
+            <button id="open" class="md:hidden font-extrabold text-2xl">☰</button>
+        </div>
+        <div id="btn" class="hidden md:hidden hover:bg-amber-400 w-20 mt-4 transition duration-300 ease-linear">
+            <ul>
+                <li>Service</li>
+                <li>Contact</li>
+                <li>FAQ</li>
+                <li>ABOUT US</li>
+            </ul>
+        </div>
+    </nav>
+    <div class="flex flex-wrap justify-center items-center gap-5 mt-20 px-4 ">
+        <h2 class="h-40 hover:scale-110
+transition-transform duration-300 w-40 flex items-center justify-center shadow-2xl text-center ">PLAy HARd</h2>
+        <h2 class="h-40 w-40 flex hover:scale-110
+transition-transform duration-300 items-center justify-center shadow-2xl text-center ">PLAy HARd</h2>
+        <h2 class="h-40 w-40 flex hover:scale-110
+transition-transform duration-300 items-center justify-center shadow-2xl text-center ">PLAy HARd</h2>
+        <h2 class="h-40 w-40 flex hover:scale-110 items-center justify-center shadow-2xl text-center ">PLAy HARd</h2>
+        <h2 class="h-40 w-40 flex hover:scale-110 items-center justify-center shadow-2xl text-center ">PLAy HARd</h2>
+        <h2 class="h-40 w-40 flex hover:scale-110 items-center justify-center shadow-2xl text-center ">PLAy HARd</h2>
+        <h2 class="h-40 w-40 flex hover:scale-110 items-center justify-center shadow-2xl text-center ">PLAy HARd</h2>
+        <h2 class="h-40 w-40 flex hover:scale-110 items-center justify-center shadow-2xl text-center ">PLAy HARd</h2>
+        <h2 class="h-40 w-40 flex hover:scale-110 items-center justify-center shadow-2xl text-center ">PLAy HARd</h2>
+        <h2 class="h-40 w-40 flex hover:scale-110 items-center justify-center shadow-2xl text-center ">PLAy HARd</h2>
+        <h2 class="h-40 w-40 flex hover:scale-110 items-center justify-center shadow-2xl text-center ">PLAy HARd</h2>
+        <h2 class="h-40 w-40 flex hover:scale-110 items-center justify-center shadow-2xl text-center ">PLAy HARd</h2>
+
+    </div>
+    <script>
+        let btn = document.getElementById("btn");
+        let open = document.getElementById("open");
+        open.addEventListener("click", () => {
+            btn.classList.toggle("hidden");
+        });
+    </script>
+</body>
+
+</html>
